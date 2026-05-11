@@ -1,1 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #050505;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Cinematic Background Gradient */
+#bg-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
+    z-index: -1;
+}
+
+/* Glass-morphism Login Card */
+.login-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.login-card h2 {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #666;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+    top: -20px;
+    font-size: 12px;
+    color: #00d4ff;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #00d4ff;
+    color: #00d4ff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.login-btn:hover {
+    background: #00d4ff;
+    color: #000;
+    box-shadow: 0 0 20px #00d4ff;
+}
