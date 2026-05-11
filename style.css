@@ -97,9 +97,9 @@ body, html {
     left: -5%;
     width: 110%; 
     height: 110%;
-    /* Note the added 'images/' in the path below */
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('images/bg.jpg'); 
+    /* Updated filename to bp.jpg */
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
+                url('images/bp.jpg'); 
     background-size: cover;
     background-position: center;
     z-index: -1;
