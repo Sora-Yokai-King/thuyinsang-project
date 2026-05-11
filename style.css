@@ -86,10 +86,25 @@ body, html {
     transition: 0.4s;
 }
 
-.login-btn:hover {
-    background: #00d4ff;
-    color: #000;
-    box-shadow: 0 0 20px #00d4ff;
+#bg-animation {
+    position: fixed;
+    top: -5%;
+    left: -5%;
+    width: 110vw; /* Using viewport width to force size */
+    height: 110vh; /* Using viewport height to force size */
+    
+    /* Fallback color so it's not white if image fails */
+    background-color: #001a33; 
+    
+    /* Try this path first. If image is in root, use 'bp.jpg' */
+    /* If image is in images folder, use 'images/bp.jpg' */
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), 
+                      url('bp.jpg'); 
+                      
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: transform 0.1s ease-out;
+    display: block;
 }
-background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
-                url('bp.jpg');
