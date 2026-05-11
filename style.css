@@ -99,7 +99,7 @@ body, html {
     height: 110%;
     /* Use your uploaded filename here */
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('bg.jpg'); 
+                url('https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/bg.jpg'); 
     background-size: cover;
     background-position: center;
     z-index: -1;
