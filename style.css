@@ -98,8 +98,7 @@ body, html {
     
     /* Try this path first. If image is in root, use 'bp.jpg' */
     /* If image is in images folder, use 'images/bp.jpg' */
-    background-image: url('https://github.com/Sora-Yokai-King/thuyinsang-project/raw/main/image.jpg');
-                      
+   background-image: url('https://cdn.jsdelivr.net/gh/Sora-Yokai-King/thuyinsang-project@main/image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
