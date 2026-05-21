@@ -98,7 +98,7 @@ body, html {
     
     /* Try this path first. If image is in root, use 'bp.jpg' */
     /* If image is in images folder, use 'images/bp.jpg' */
-    background-image: url('https://s.yimg.com/lo/mysterio/api/e765999138c27f058da6d787487ce444fdcf718c3aa0181b62cdd6baec00144c/lightyear_networkapi/resizefill_w1440;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fgamesradar_237%2Fc6ffd5384a0dd4cbf846e9a1c210789e');
+    background-image: url('https://github.com/Sora-Yokai-King/thuyinsang-project/blob/main/image.jpg?raw=true');
                       
     background-size: cover;
     background-position: center;
