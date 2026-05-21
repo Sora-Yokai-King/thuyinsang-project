@@ -98,11 +98,15 @@ body, html {
     
     /* Try this path first. If image is in root, use 'bp.jpg' */
     /* If image is in images folder, use 'images/bp.jpg' */
-   background-image: url('https://cdn.jsdelivr.net/gh/Sora-Yokai-King/thuyinsang-project@main/image.jpg');
+  .your-element {
     background-size: cover;
+  background-image: url('https://cdn.jsdelivr.net/gh/Sora-Yokai-King/thuyinsang-project@main/image.jpg');
     background-position: center;
+  background-size: cover;    /* Scales the image to fill the container */
     background-repeat: no-repeat;
+  background-position: center; /* Centers the image */
     z-index: -1;
+  background-repeat: no-repeat; /* Prevents tiling */
     transition: transform 0.1s ease-out;
-    display: block;
 }
+    display: block;
